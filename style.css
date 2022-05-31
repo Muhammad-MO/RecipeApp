@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Open+Sans&display=swap');
 *{
 
     padding:0;
@@ -15,7 +15,7 @@ html{
     font-size:12px;
 }
 section{
-    height: 1000vh;
+    min-height:100vh;
     width:100%;
     display:flex;
     align-items: center;
@@ -41,3 +41,42 @@ margin:0 auto;
     margin-bottom: 30px;
 
 }
+
+form{
+    width:90%;
+    max-width: 400px;
+    margin:20px auto;
+    background-color: rgb(223, 223, 223);                                                                                                    
+    border-radius: 4px;                    
+}
+
+form input{
+
+    width: 88%;
+    background-color: transparent;
+    padding: 10px;
+    border:none;
+    outline:none;
+    font-size:2rem;
+    display: inline-block;
+  
+}
+
+form button{
+    width: 5px;
+    font-size: 3rem;
+    border:none;
+    background-color: transparent;
+    margin-top: 5px;
+
+}
+
+.search-result{
+
+   margin-top: 50px; 
+   width:100%;
+   display:grid;
+   grid-gap:25px;
+   grid-template: auto / repeat(auto-fit, minmax(300px,1fr));
+}
+
