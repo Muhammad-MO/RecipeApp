@@ -13,12 +13,12 @@
 
 <p>The recipe retrievs an array of recipes matching the word typed in. in</p>
 
-![picture](/image/screenshot4.png)
+![picture](/image/Screenshot4.png)
 
 
 <p>Clicking on the "vew recipe" button brings the user to a page showing step by step instruction</p>
 
-![picture](/image/screenshot2.png)
+![picture](/image/Screenshot2.png)
 
 
 <h1> Languages used in this Weather app </h1>
